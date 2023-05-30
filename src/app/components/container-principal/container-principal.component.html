@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<div class="principal-container">
+    <div class="title">
+        <h1>Contenedor del Instituto Tecnológico de Cuautla</h1>
+    </div>
+
+    <div class="container-info">
+        <div class="img-container">
+            <img src="../../../assets/contenedor.png" alt="">
+            <div class="number_max">
+                <span>Capacidad: {{10000}}</span>
+            </div>
+            <div class="number">
+                <span id="tapitas" *ngIf="buscado">Tapitas: {{tapitas}}</span>
+            </div>
+        </div>
+    </div>
+</div>

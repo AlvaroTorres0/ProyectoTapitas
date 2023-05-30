@@ -1,0 +1,30 @@
+.container-nav{
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: rgb(66,130,217);
+    background: linear-gradient(90deg, rgba(66,130,217,1) 0%, rgba(34,167,236,1) 49%, rgba(0,99,255,1) 100%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.container_name{
+    width: 30%;
+}
+.container_name h3{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.container_items{
+    width: 70%;
+    padding-right: 50px;
+}
+.container_items ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style: none;
+    margin-right: 10px;
+}

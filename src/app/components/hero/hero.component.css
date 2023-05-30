@@ -1,0 +1,42 @@
+.container-hero{
+    height: 100vh;
+    background: url(../../../assets/7OIGFCHEPFDJTBWQ6LM2QURLQA.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elements{
+    height: 200px;
+    width: 100%;
+    background: rgba(6, 6, 6, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.elements_title h1{
+    font-family: monospace;
+    font-size: 50px;    
+}
+.elements_slogan h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+.elements_button button{
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 23px;
+    background: #2D9BF0;
+    border: none;
+    color: #fff;
+    width: 150px;
+}
+.elements_button button:hover{
+    background: #2DCBF9;
+    cursor: pointer;
+}
